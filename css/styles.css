@@ -1,0 +1,166 @@
+body {
+    font: 1rem Verdana;
+    background-color: rgb(242, 232, 248);
+    height: 5vh;
+    width: 50vw;
+
+}
+
+h2 {
+    color: #000000;
+    font-size: 200%;
+}
+
+li {
+    list-style-type: square;
+    line-height: 2em;
+    color: rgba(100, 100, 100, 1.0)
+}
+
+body {
+    width: 90%;
+    max-width: 7000px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font: 1rem Verdana;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(219, 231, 162);
+}
+nav li {
+display: inline;
+list-style-type: none;
+}
+nav a {
+    color: indigo;
+    padding: 2px;
+    background-color: cornsilk;
+    border: 2px;
+    border-style: solid;
+    border-color: indigo;
+}
+
+main {
+    float:left;
+    width: 67%;
+    padding: 0px;
+    background-color: rgb(179, 162, 231);
+}
+
+aside {
+
+    padding-left: 0px;
+    width: 30%;
+    float: right;
+    background-color: rgb(162, 206, 231);
+}
+aside ul{
+    list-style-type: circle; 
+   line-height: 50px;
+  }
+  ul li {
+    color: blue;
+    list-style-type: square;
+    line-height: 2em;
+    list-style-type: circle;
+  }
+  ul a{
+    text-decoration: none;
+  }
+  ul a:hover {
+    text-decoration: none;
+    color:cornsilk;
+    border-color: cornsilk;
+    background-color: indigo;
+  }
+  
+footer{
+background-color: rgb(219, 231, 162);
+clear:both;
+}
+
+.structural {
+    padding: 5px;
+    margin: auto;
+    border: none;
+}
+
+#one {
+    color: rgb(0, 0, 0);
+}
+
+#two {
+    color: rgb(0, 0, 0);
+}
+a:hover {
+    background-color: yellow;
+    text-decoration: none;
+  }
+  footer p{
+    font-size: 10px;
+  }
+  form{
+    padding: 5px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: black;
+  }
+  input[type="text"]{
+    width: 50%;
+    display: block;
+    height: 2em;
+    
+  }
+  input[type="email"]{
+    width: 50%;
+    display: block;
+    height: 2em;
+    
+  }
+  input[type="submit"]{
+    width: 50%;
+    display: block;
+    height: 2em;
+    font-size: 1.5rem;
+    font-weight: bold;
+font-variant: small-caps;
+  }
+  input[type="select"]{
+    width: 50%;
+    display: block;
+    height: 2em;
+    
+  }
+  input[type="option"]{
+    width: 50%;
+    display: block;
+    height: 2em;
+    
+  }
+  input[type="radio"]{
+    height: 2em;
+    width: 2em;
+   
+  }
+  input[type="checkbox"]{
+    height: 2em;
+    width: 2em;
+    
+  }
+  select, option, label, legend {
+    font-size: 1.5rem;
+font-weight: bold;
+font-variant: small-caps;
+  }
+textarea{
+  width: 50%;
+  display: block;
+}
+fieldset{
+  border: none;
+}
+
+/* Nikolai Magiev 8814 */
